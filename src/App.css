@@ -1,0 +1,25 @@
+#app {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  display: block;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-block: 1rem;
+}
+
+#results {
+  height: 75vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border-radius: 10px;
+}
+
+.user {
+  background-color: rgb(203, 226, 255);
+  padding: 1rem;
+  border-bottom: 1px solid black;
+}
